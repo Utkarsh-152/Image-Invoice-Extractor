@@ -50,7 +50,7 @@ The following libraries are used in this project:
    pip install -r requirements.txt
 
 4. Obtain a Google API key:
-- Visit the Google Cloud Console.
+- Visit the [Google Cloud Console](https://console.cloud.google.com/).
 - Create a new project (if you don’t have one).
 - Enable the Google Generative AI API in your project.
 - Generate an API key under APIs & Services > Credentials.
@@ -77,8 +77,9 @@ The following libraries are used in this project:
 ---
 
 ## File Structure
+   .
     ```plaintext
-    .
+    
     ├── app.py                # Main Streamlit app script
     ├── requirements.txt      # Dependencies for the project
     ├── .env                  # Environment file for storing the API key
